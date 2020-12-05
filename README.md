@@ -12,44 +12,38 @@ EduCrack Backend test
 
 ```
 Git should be installed in your local system
+mongodb should be installed
 ```
 
 ### Installing
 
 ```
-git remote add coworker git://vamshi0108/weather-app.git
+git remote add coworker git://vamshi0108/edu-crack.git
 git fetch coworker
 git checkout --track coworker/notes
 ```
 
-This will setup a local branch notes, tracking the remote branch coworker/notes. You can easily pull them if any changes made. Also make sure you install the node modules in your local setup.
-
-```
 git checkout weather-app
 git pull
-```
-
-## APIs Used
 
 ```
-WeatherStack
-Mapbox
+npm install all the required modules mentioned in package.json
+Install mongodb and run the below command to run the db server locally
+D:\Learning\mongodb\bin\mongod.exe --dbpath=D:\Learning\mongodb-data
+Now API endpoints can be hit by using postman or chrome
 ```
 
 ## npm Packages Used
 
 ```
-nodemailer
+bcryptjs
 validator
+express
+jsonwebtoken
+mongoose
+env-cmd
 nodemon
-request
-path
-hbs
 ```
-
-## Deployment
-
-You can use [Heroku](https://dashboard.heroku.com/apps) for live deployment.
 
 ## Built With
 

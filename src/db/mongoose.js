@@ -6,6 +6,3 @@ mongoose.connect(process.env.MONGODB_URL, {
   useFindAndModify: false,
 });
 
-// Running mongodb in local:
-
-// D:\Learning\mongodb\bin\mongod.exe --dbpath=D:\Learning\mongodb-data
