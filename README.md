@@ -27,11 +27,8 @@ git pull
 
 ```
 npm install all the required modules mentioned in package.json
-
 Install mongodb and run the below command to run the db server locally
-
 D:\Learning\mongodb\bin\mongod.exe --dbpath=D:\Learning\mongodb-data
-
 Now API endpoints can be hit by using postman or chrome
 ```
 
@@ -43,17 +40,23 @@ All authorization details present in middleware/auth.js
 Since this is a written exam, key is displayed publicly in connfig/dev.env
 ```
 
-## npm Packages Used
+### APIs
 
 ```
--bcryptjs
--validator
--express
--jsonwebtoken
--mongoose
--env-cmd
--nodemon
+Authorization : Bearer
+All authorization details present in middleware/auth.js
+Since this is a written exam, key is displayed publicly in connfig/dev.env
 ```
+
+## npm Packages Used
+
+- bcryptjs
+- validator
+- express
+- jsonwebtoken
+- mongoose
+- env-cmd
+- nodemon
 
 ## Built With
 
