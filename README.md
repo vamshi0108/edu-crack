@@ -1,4 +1,4 @@
-# Weather-app
+# EduCrack
 
 EduCrack Backend test
 
@@ -45,7 +45,7 @@ Since this is a written exam, key is displayed publicly in connfig/dev.env
 ```
 Authorization : Bearer
 All authorization details present in middleware/auth.js
-Since this is a written exam, key is displayed publicly in connfig/dev.env
+Since this is a written exam, key is displayed publicly in config/dev.env
 ```
 
 ## npm Packages Used
